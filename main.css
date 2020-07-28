@@ -1,0 +1,130 @@
+body {
+  padding: 5%;
+  margin: 5%;
+  width: auto 0;
+  background: tomato;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.box {
+  box-sizing: border-box;
+  position: relative;
+  transition: 1s;
+  padding: 5px;
+  width: 300px;
+  height: 300px;
+  margin: 20px 0 0 20px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  align-content: stretch;
+  text-align: center;
+}
+
+.box-parent {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.box0 {
+  background-color: orange;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  padding-top: 70px;
+  font-size: 55px;
+
+}
+
+.box1 {
+  background-image: url("imgs/BK.jpg");
+  background-position: center;
+  position: relative;
+
+}
+
+.box2 {
+  background-color: teal;
+  font-family: 'Oswald', sans-serif;
+  font-size: 22px;
+  text-align: center;
+  line-height: normal;
+  padding: 2.5%;
+  position: relative;
+}
+
+.box3 {
+  background-image: url("imgs/family.jpg");
+  background-position: center;
+  position: relative;
+}
+
+.box4 {
+  background-color: #ba65a0;
+  font-family: 'Oswald', sans-serif;
+  font-size: 22px;
+  text-align: center;
+  line-height: normal;
+  padding: 2.5%;
+  position: relative;
+}
+
+.box5 {
+  background-image: url("imgs/buttons.jpg");
+  background-position: center;
+  position: relative;
+}
+
+.box6 {
+  background-color: #9DC183;
+  font-family: 'Oswald', sans-serif;
+  font-size: 22px;
+  text-align: center;
+  line-height: normal;
+  padding: 2.5%;
+  position: relative;
+}
+
+.box7 {
+  background-image: url("imgs/dogwalker.jpg");
+  background-position: center;
+  position: relative;
+}
+
+.box8 {
+  background-color: #57A0D3;
+  font-family: 'Oswald', sans-serif;
+  font-size: 22px;
+  text-align: center;
+  line-height: normal;
+  padding: 2.5%;
+  position: relative;
+}
+
+.box9 {
+  background-color: #FE7F9C;
+  background-image: url("imgs/logo2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
